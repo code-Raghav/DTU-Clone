@@ -93,11 +93,12 @@ header img {
     padding: 1vh 0 2vh 0;
   }
   .nav-bar {
+    height: auto;
     width: 100vw;
     margin: 0;
   }
   .nav-bar ul {
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: none;
   }
 }
