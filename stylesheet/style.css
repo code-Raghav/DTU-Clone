@@ -97,7 +97,7 @@ header img {
     margin: 0;
   }
   .nav-bar ul {
-    grid-template-rows: 1fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 0.8fr 0.8fr 0.8fr 1.5fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: none;
   }
 }
