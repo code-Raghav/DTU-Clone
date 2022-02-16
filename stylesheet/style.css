@@ -46,6 +46,9 @@ header div a {
   text-decoration: none;
   color: black;
 }
+header img {
+  width: 100%;
+}
 
 .nav-bar {
   width: 60vw;
