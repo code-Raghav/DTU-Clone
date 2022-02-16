@@ -71,3 +71,22 @@ header img {
   color: white;
   display: inline;
 }
+
+@media only screen and (max-width: 768px) {
+  .top-bar {
+    width: 100vw;
+    margin: 0;
+    padding: 0px;
+    border-radius: 0 0 0 0;
+  }
+  header {
+    width: 100vw;
+    margin: 0;
+    grid-template-columns: 3fr 1fr;
+    padding: 1vh 0 2vh 0;
+  }
+  .nav-bar {
+    width: 100vw;
+    margin: 0;
+  }
+}
