@@ -283,7 +283,7 @@ marquee div a {
   }
   .content {
     grid-template-columns: none;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.6fr 1fr 1fr 1fr;
     width: 100vw;
     margin: 0;
     grid-gap: 0mm;
@@ -348,6 +348,8 @@ marquee div a {
   .content {
     width: 90vw;
     margin: 0 5vw 0 5vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.7fr 5fr;
   }
 }
 
@@ -375,5 +377,7 @@ marquee div a {
   .content {
     width: 80vw;
     margin: 0 10vw 0 10vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.7fr 5fr;
   }
 }
