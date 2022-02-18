@@ -158,7 +158,77 @@ marquee div a {
 .box3 {
   grid-column-start: 1;
   grid-column-end: 5;
-  background-color: green;
+}
+.box3-header {
+  background-color: #ececec;
+  width: 100%;
+  height: 3%;
+}
+.box3-header ul {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr 0.8fr 0.8fr 2fr 1.5fr 0.8fr;
+  text-align: center;
+
+  height: 100%;
+}
+.box3-header li {
+  list-style-type: none;
+  padding-top: 1vh;
+}
+.box3-header li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Raleway";
+  font-size: 12px;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+}
+#link1 {
+  background-color: white;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+}
+#link1 a {
+  color: #08387f;
+}
+#link2,
+#link6 {
+  background-color: #098cc4;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+}
+#link3 {
+  background-color: #7ba734;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+}
+#link4 {
+  background-color: #646263;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+}
+#link5 {
+  background-color: #ec8d1f;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+}
+#link7 {
+  border-bottom: 1px solid grey;
+}
+.box3-content {
+  background-color: white;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  height: 100%;
+  width: 100%;
 }
 .box4 {
   grid-column-start: 5;
